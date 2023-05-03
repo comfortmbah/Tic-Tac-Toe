@@ -23,6 +23,15 @@ body {
     font-weight: bolder;
 }
 
+div.message {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
 td {
     border: 2px solid black;
     width: 100px;

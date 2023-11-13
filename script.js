@@ -32,3 +32,13 @@ const gameBoard = (() => {
     return { setField, getField, reset };
 })();
 
+const displayController = (() => {
+    const cellElements = document.querySelectorAll('.cell');
+    const displayMessage = document.getElementById('message');
+    const restartBtn = document.querySelector('.reset-btn');
+
+    cellElements.forEach((cell) => {
+        cell.addEventListener('click', (e) => {
+        })
+    })
+})
